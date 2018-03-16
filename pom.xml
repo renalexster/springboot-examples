@@ -12,6 +12,8 @@
 	</properties>
 	<modules>
 		<module>spring-rest</module>
+		<module>spring-jms-consumer</module>
+		<module>model-entity</module>
 	</modules>
 	<parent>
 		<groupId>org.springframework.boot</groupId>

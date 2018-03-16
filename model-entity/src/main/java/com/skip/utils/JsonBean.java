@@ -15,9 +15,6 @@ public abstract class JsonBean implements Serializable{
 		// create the mapper
         ObjectMapper mapper = new ObjectMapper();
  
-        // enable pretty printing
-        mapper.enable(SerializationFeature.INDENT_OUTPUT);
- 
         ByteArrayOutputStream baos = new ByteArrayOutputStream();
         // serialize the object
         mapper.writeValue(baos, this);
